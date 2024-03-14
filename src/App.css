@@ -1,0 +1,27 @@
+.container {
+  max-width: 500px;
+  height: 100vh;
+}
+
+.calculator {
+  width: 335px;
+}
+
+.calculator-keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  grid-gap: 5px;
+  width: 335px;
+  height: 420px;
+}
+
+.display {
+  height: 80px;
+}
+
+@media (min-width: 501px) {
+  .container {
+    height: 640px;
+  }
+}

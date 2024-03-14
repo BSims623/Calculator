@@ -1,0 +1,3 @@
+const calcData = [{id:'(', key: '('}, {id: ')', key: ')'}, {id: '%', key: '%'}, {id: 'clear', key: 'AC'}, {id: 'seven', key: '7'}, {id: 'eight', key: '8'}, {id: 'nine', key: '9'}, {id: 'divide', key: 'Divide'}, {id: 'four', key: '4'}, {id: 'five', key: '5'}, {id: 'six', key: '6'}, {id: 'multiply', key: 'X'}, {id: 'one', key: '1'}, {id: 'two', key: '2'}, {id: 'three', key: '3'}, {id: 'add', key: '+'}, {id: 'zero', key: '0'}, {id: 'decimal', key: '.'}, {id: 'equals', key: '='}, {id: 'subtract', key: '-'} ]
+
+export default calcData
